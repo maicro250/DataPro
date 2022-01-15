@@ -1,0 +1,5 @@
+jupyter-book
+matplotlib
+mpl_toolkits
+numpy
+pandas
