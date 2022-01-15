@@ -5,14 +5,13 @@
 
 # # matplotlib、numpy基本操作练习
 
-# ## 导入基础模块：matplotlib、mpl_toolkits、numpy。
+# ## 导入基础模块：matplotlib、numpy。
 
 # In[1]:
 
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
 
@@ -35,4 +34,10 @@ z = 10*np.sin(theta)
 for i in range(1):
     phi = i*np.pi/9
     ax.plot(y*np.sin(phi)+10*np.sin(phi), y*np.cos(phi)+10*np.cos(phi), z)
+
+
+# In[ ]:
+
+
+
 
